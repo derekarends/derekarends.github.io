@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to Create a Global Logger for ASP.NET Core 2.2"
-date:   2019-05-07 17:09:39 -0500
-categories: .net
+date:   2019-07-16 17:09:39 -0500
+categories: .net logging
 author: Derek Arends
 ---
 
