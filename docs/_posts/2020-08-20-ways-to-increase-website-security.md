@@ -42,14 +42,10 @@ Most browsers will have this next header turned on by default, however, we will 
 
 There are other options for protection and different levels of protection. If you wanted to adjust according to what you would like your application to do.
 
-* 0
-** Filter is Disabled
-* 1
-** Filter enabled. If a cross-site scripting attack is detected, in order to stop the attack, the browser will sanitize the page.
-* 1; mode=block
-** Filter enabled. Rather than sanitize the page, when a XSS attack is detected, the browser will prevent rendering of the page.
-* 1; report=YOUR_REPORT_URI
-** Filter enabled. The browser will sanitize the page and report the violation. This is a Chromium function utilizing CSP violation reports to send details to a URI of your choice.
+* **0** - Filter is Disabled
+* **1** - Filter enabled. If a cross-site scripting attack is detected, in order to stop the attack, the browser will sanitize the page.
+* **1; mode=block** - Filter enabled. Rather than sanitize the page, when a XSS attack is detected, the browser will prevent rendering of the page.
+* **1; report=YOUR_REPORT_URI** - Filter enabled. The browser will sanitize the page and report the violation. This is a Chromium function utilizing CSP violation reports to send details to a URI of your choice.
 
 ## Content Security Policy(CSP)
 
@@ -70,21 +66,21 @@ add_header Content-Security-Policy "default-src 'self'; script-src 'self' *.goog
 
 Here is a list of possible options to provide to Content-Security-Policy and the impacts they would have.
 
-* default-src : Define loading policy for all resources type in case of a resource type dedicated directive is not defined (fallback)
-* script-src: Define which scripts the protected resource can execute,
-* object-src : Define from where the protected resource can load plugins
-* style-src: Define which styles (CSS) the user applies to the protected resource
-* img-src: Define from where the protected resource can load images
-* media-src: Define from where the protected resource can load video and audio
-* frame-src: Define from where the protected resource can embed frames
-* font-src: Define from where the protected resource can load fonts
-* connect-src: Define which URIs the protected resource can load using script interfaces
-* form-action: Define which URIs can be used as the action of HTML form elements
-* sandbox: Specifies an HTML sandbox policy that the user agent applies to the protected resource
-* script-nonce: Define script execution by requiring the presence of the specified nonce on script elements
-* plugin-types: Define the set of plugins that can be invoked by the protected resource by limiting the types of resources that can be embedded
-* reflected-xss: Instructs a user agent to activate or deactivate any heuristics used to filter or block reflected cross-site scripting attacks, equivalent to the effects of the non-standard X-XSS-Protection header
-* report-uri: Specifies a URI to which the user agent sends reports about policy violation
+* **default-src** - Define loading policy for all resources type in case of a resource type dedicated directive is not defined (fallback)
+* **script-src** - Define which scripts the protected resource can execute,
+* **object-src** - Define from where the protected resource can load plugins
+* **style-src** - Define which styles (CSS) the user applies to the protected resource
+* **img-src** - Define from where the protected resource can load images
+* **media-src** - Define from where the protected resource can load video and audio
+* **frame-src** - Define from where the protected resource can embed frames
+* **font-src** - Define from where the protected resource can load fonts
+* **connect-src** - Define which URIs the protected resource can load using script interfaces
+* **form-action** - Define which URIs can be used as the action of HTML form elements
+* **sandbox** - Specifies an HTML sandbox policy that the user agent applies to the protected resource
+* **script-nonce** - Define script execution by requiring the presence of the specified nonce on script elements
+* **plugin-types** - Define the set of plugins that can be invoked by the protected resource by limiting the types of resources that can be embedded
+* **reflected-xss** - Instructs a user agent to activate or deactivate any heuristics used to filter or block reflected cross-site scripting attacks, equivalent to the effects of the non-standard X-XSS-Protection header
+* **report-uri** - Specifies a URI to which the user agent sends reports about policy violation
 
 ## Parting Words
 
