@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Add Localization to ASP.NET Core 2.2"
-date:   2019-05-09 17:09:39 -0500
+date:   2019-06-09 17:09:39 -0500
 categories: .net localization
 author: Derek Arends
 ---
@@ -12,7 +12,7 @@ I am going to make the assumptions you already know how to create/build/run a .N
 
 For project setup we will want a new ASP.NET Core Web Application called DotNetLocalization for the solution name and API for the project name.  Once the solution is created we will then add a new .NET Core Class Library targeting the .netstandard2.0 framework project called Core.  Your project should look similar to:
 
-<img src="{{site.url}}/assets/DotNetLocalizationProjectStructure.png" alt="" class="wp-image-212" width="388" height="88"/>
+<img src="{{site.url}}/assets/DotNetLocalizationProjectStructure.png" alt="Solution Structure" width="388" height="88"/>
 
 ## Core Project Setup
 
@@ -44,7 +44,7 @@ We will also want to create two resx files called SharedResources.en-US.resx and
 
 Once those changes have been made to the Core project it should look like the image below and we can focus on hooking it all together.
 
-<img src="{{site.url}}/assets/DotNetLocalizationCoreStructure.png" alt="" class="wp-image-249" width="368" height="148"/>
+<img src="{{site.url}}/assets/DotNetLocalizationCoreStructure.png" alt="Core Project Structure" width="368" height="148"/>
 
 ## Hooking Up the API
 
