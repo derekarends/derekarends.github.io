@@ -49,7 +49,7 @@ namespace Templates.ViewModels
   {
     public string Text { get; set; }
     public string Url { get; set; }
-    
+
     public EmailButtonViewModel(string text, string url)
     {
       Text = text;
@@ -69,7 +69,7 @@ namespace Templates.ViewModels
   public class HelloWorldViewModel
   {
     public string ButtonLink { get; set; }
-    
+
     public HelloWorldViewModel(string buttonLink)
     {
       ButtonLink = buttonLink;
@@ -87,7 +87,23 @@ In the Shared directory create the following Razor Pages.
 This file shows how we import the view model we would like to use and the properties available on that model.
 
 {% highlight ruby %}
-@using Templates.ViewModels<br>@model EmailButtonViewModel<br><br><table width="100%" border="0" cellspacing="0" cellpadding="0"><br>  <tr><br>    <td bgcolor="#ffffff" align="center" style="padding: 30px;"><br>      <table border="0" cellspacing="0" cellpadding="0"><br>        <tr><br>          <td align="center" style="border-radius: 30px;" bgcolor="#0088f3"><br>            <a href="@Model.Url" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; padding: 15px 25px; display: inline-block;"><br>              @Model.Text<br>            </a><br>          </td><br>        </tr><br>      </table><br>    </td><br>  </tr><br></table>
+@using Templates.ViewModels
+@model EmailButtonViewModel
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#ffffff" align="center" style="padding: 30px;">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" style="border-radius: 30px;" bgcolor="#0088f3">
+            <a href="@Model.Url" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; padding: 15px 25px; display: inline-block;">
+              @Model.Text
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 {% endhighlight %}
 
 ## Email Layout
