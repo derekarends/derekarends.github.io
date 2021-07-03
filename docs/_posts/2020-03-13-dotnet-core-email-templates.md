@@ -2,7 +2,7 @@
 layout: post
 title: "How to Create Email Templates with ASP.NET Core 2.2"
 date: 2020-03-13 17:09:39 -0500
-categories: .net "Emailt Templates"
+categories: .net "Email Templates"
 author: Derek Arends
 ---
 
@@ -301,7 +301,7 @@ Last step is to build the project, go to [https://localhost:5001/api/emails/send
 
 ## Final Thoughts
 
-This allows for a very flexible email templating engine. I could see how we could turn this into its own solution to allow many services and projects to use this structure.  What are some other ways you guys are building custom email templates for your applications?
+This allows for a very flexible email templating engine. I could see how we could turn this into its own solution to allow many services and projects to use this structure.
 
 [https://github.com/derekarends/dotnetcore-emailtemplateengine]: https://github.com/derekarends/dotnetcore-emailtemplateengine
 [https://localhost:5001/api/emails/send]: https://localhost:5001/api/emails/send
