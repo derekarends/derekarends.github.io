@@ -5,6 +5,13 @@ date: 2020-02-01 17:09:39 -0500
 categories: .net
 author: Derek Arends
 ---
+
+Paypal is a great way to allow payments from a broad audience of customers.
+
+It is used around the world and trusted as a safe way to send and receive payments.
+
+Here is a little snippet of what it looks like to integrate Paypal payments into a .Net Core application.
+
 {% highlight ruby %}
 public async Task<string> InitPaypal()
 {
@@ -118,3 +125,5 @@ public async Task<bool> PaypalPayment(string payerId, string paymentId)
    }
 }
 {% endhighlight %}
+
+There isn't a lot that goes into being able to integrate with Paypal, I think the trickiest part was making sure to hit the test system when not in a production mode.
