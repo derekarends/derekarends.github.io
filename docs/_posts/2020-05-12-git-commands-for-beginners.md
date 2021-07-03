@@ -2,7 +2,7 @@
 layout: post
 title:  "Git Commands For Beginners"
 date:   2020-05-12 17:09:39 -0500
-categories: git beginners
+categories: git
 author: Derek Arends
 ---
 

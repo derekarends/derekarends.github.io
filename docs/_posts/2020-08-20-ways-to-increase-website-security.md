@@ -2,7 +2,7 @@
 layout: post
 title: "Simple Ways to Greatly Increase Website Security"
 date: 2019-08-09 17:09:39 -0500
-categories: website security
+categories: security
 author: Derek Arends
 ---
 

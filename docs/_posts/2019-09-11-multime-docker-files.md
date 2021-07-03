@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Setup ASP.NET Core 2.2 with a Multiple Build Dockerfile"
 date:   2019-09-11 17:09:39 -0500
-categories: .net dockerfile
+categories: docker
 author: Derek Arends
 ---
 

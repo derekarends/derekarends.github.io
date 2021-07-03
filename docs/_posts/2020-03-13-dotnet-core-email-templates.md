@@ -2,7 +2,7 @@
 layout: post
 title: "How to Create Email Templates with ASP.NET Core 2.2"
 date: 2020-03-13 17:09:39 -0500
-categories: .net "Email Templates"
+categories: .net
 author: Derek Arends
 ---
 

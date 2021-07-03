@@ -2,7 +2,7 @@
 layout: post
 title: "How to Integrate with Stripe ASP.NET Core 2.2"
 date: 2020-04-23 17:09:39 -0500
-categories: .net "Stripe Integration"
+categories: .net
 author: Derek Arends
 ---
 The Stripe API is fabulous at documentation and giving examples of how to do all sorts of things to allow your application to take credit cards.

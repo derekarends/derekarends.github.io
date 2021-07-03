@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Create an HTTP Request in ASP.NET Core 2.2"
 date:   2019-11-28 17:09:39 -0500
-categories: .net http request
+categories: .net
 author: Derek Arends
 ---
 

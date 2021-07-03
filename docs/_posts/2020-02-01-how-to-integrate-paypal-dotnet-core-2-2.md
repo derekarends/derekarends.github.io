@@ -2,7 +2,7 @@
 layout: post
 title: "How to Integrate with PayPal ASP.NET Core 2.2"
 date: 2020-02-01 17:09:39 -0500
-categories: .net "Paypal Integration"
+categories: .net
 author: Derek Arends
 ---
 {% highlight ruby %}

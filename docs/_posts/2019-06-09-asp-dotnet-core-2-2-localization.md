@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Add Localization to ASP.NET Core 2.2"
 date:   2019-06-09 17:09:39 -0500
-categories: .net localization
+categories: .net
 author: Derek Arends
 ---
  

@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Startup.CS in .Net Core"
 date: 2020-07-16 17:09:39 -0500
-categories: .net startup.cs
+categories: .net
 author: Derek Arends
 ---
 One file that has always gotten to me in a .Net Core project is the Startup.CS file.  It seems like a simple class but when it came to knowing which method to update I would get confused...  Is it the ConigureServices method or Configure method.
