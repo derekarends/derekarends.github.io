@@ -26,7 +26,7 @@ public async Task<string> InitPaypal()
   {
      new PaypalPayment.Item
      {
-        Name = "Your product name,
+        Name = "Your product name",
         Currency = "USD",
         Price = "price_in_dollars",
         Quantity = "1",
